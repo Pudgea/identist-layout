@@ -77,7 +77,8 @@ img{
     height: 100%;
 }
 .logo img{
-    width: min-content;
+    width: min-content !important;
+    max-width: 111px;
 }
 nav ul{
     display: flex;
