@@ -19,7 +19,7 @@
 
     --g10: 10px;
     --g20: 20px;
-    --g40: 30px;
+    --g40: 40px;
 
     --f14: 14px;
     --f16:16px;
@@ -296,6 +296,7 @@ main{
     flex-direction: column;
     gap: var(--g10);
     margin-top: var(--p20);
+    width: 100%;
 }
 .sbc-title svg{
     font-size: 50px !important;
@@ -305,4 +306,7 @@ main{
     display: flex;
     gap: var(--g10);
     align-items: center;
+}
+.command-container{
+    width: 100%;
 }
